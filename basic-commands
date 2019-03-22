@@ -1,0 +1,26 @@
+Basic file commands
+
+ls -- list all files
+ls -l -- list files in long format
+cp filename1 filename2 -- copy files
+mv filename1 filename2 -- move files
+diff filename1 filename2 -- compares and shows difference between the files
+
+Basic directory commands
+
+mkdir -- make directory
+cd dirname -- change directory
+pwd -- present working directory
+
+Basic user commands
+
+ps -u -- lists all processes
+ps -u username -- lists all processes for the username
+kill PID -- terminates the process
+
+
+Searching commands
+
+ff -- finds file
+ff -p finds the file even without full name
+grep 'regex' -- matches the regular expression
