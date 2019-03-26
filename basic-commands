@@ -24,3 +24,11 @@ Searching commands
 ff -- finds file
 ff -p finds the file even without full name
 grep 'regex' -- matches the regular expression
+
+
+Replacing specific string
+
+while IFS=',' read -r f1 f2 f3 f4 f5 f6 f7
+do
+    echo "$f1,$f2,$f3,$f4,$f6,+$f5-$f7"
+done < input
